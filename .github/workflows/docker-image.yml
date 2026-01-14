@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: deepakgholave/boardgame11:${{gitub.sha}}
+          tags: deepakgholave/boardgame11:${{github.sha}}
